@@ -32,7 +32,7 @@ export default function App() {
           <p className="mb-2">Price chart placeholder</p>
           <div className="flex gap-4">
             <a
-              href={\`https://dexscreener.com/ethereum/\${selected.address}\`}
+              href={`https://dexscreener.com/ethereum/${selected.address}`}
               target="_blank"
               rel="noreferrer"
               className="bg-blue-500 px-4 py-2 rounded hover:bg-blue-600"
@@ -40,7 +40,7 @@ export default function App() {
               View on Dexscreener
             </a>
             <a
-              href={\`https://app.axiom.trade/\${selected.address}\`}
+              href={`https://app.axiom.trade/${selected.address}`}
               target="_blank"
               rel="noreferrer"
               className="bg-purple-500 px-4 py-2 rounded hover:bg-purple-600"
