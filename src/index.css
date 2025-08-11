@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#000000;
+  --panel:#071018;
+  --accent1:#00f6ff;
+  --accent2:#00c3ff;
+  --muted:#9aa7b2;
+}
+body { background: var(--bg); color: #e6f7ff; }
+.panel { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(0,255,200,0.06); box-shadow: 0 6px 18px rgba(0,255,200,0.03); }
+.neon { text-shadow: 0 0 8px rgba(0,255,200,0.12); }
+.small { font-size: 0.85rem; color: var(--muted); }
